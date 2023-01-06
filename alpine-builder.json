@@ -1,8 +1,9 @@
 {
-  "builder_host": "esx-11.packer.zpod.io",
-  "builder_host_username": "root",
-  "builder_host_password": "VMware1!",
-  "builder_host_datastore": "NFS-01",
-  "builder_host_folder": "/isos",
-  "builder_host_portgroup": "VM Network"
+  "builder_host": "192.168.10.45",
+  "builder_host_username": "administrator@vsphere.local",
+  "builder_host_password": "VMware123!",
+  "builder_host_datastore": "m2sata-local01",
+  "builder_host_portgroup": "Virtual Machines",
+  "builder_cluster": "Dell-Cluster",
+  "builder_resource_pool": "packer"
 }
