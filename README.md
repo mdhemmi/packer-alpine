@@ -12,13 +12,6 @@ VM Hardware Configuration:
 - 512 MB RAM
 - 8 GB Hard Disk
 
-## Download
-
-Built artifact from Packer (Only 48MB !!!)
-- https://cloud.tsugliani.fr/ova/alpine-3.15.4.ova
-- https://cloud.tsugliani.fr/ova/alpine-3.15.6.ova
-
-
 ## OVF Properties
 
 Here is the available properties
@@ -38,7 +31,7 @@ I usually prefer govc for this as the properties can be managed as a JSON field 
 Have fun !
 
 ```shell
-❯ govc import.spec alpine-3.15.4.ova
+❯ govc import.spec alpine-3.17.0.ova
 {
   "DiskProvisioning": "flat",
   "IPAllocationPolicy": "dhcpPolicy",
